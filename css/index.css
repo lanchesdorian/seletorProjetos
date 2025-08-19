@@ -1,0 +1,25 @@
+*{margin: 0;
+padding: 0}
+
+#cabecalho{height: 15vh; width: 100vw; }
+
+.corPreto {background-image: linear-gradient(to right, #e5720a, #e65a4f, #cd5676, #a45e8a, #7a6387) !important;}
+
+.corPreto a {color:antiquewhite}
+
+.corPreto a:hover{ color: rgb(126, 224, 193);}
+
+.corPreto a:active{ color: rgb(126, 224, 193);}
+
+i {color: #e65a4f}
+p {color: #e5720a}
+h1 {color:#e5720a}
+
+body{overflow-x: hidden;}
+
+#pagina1{width: 100vw; 
+    height: auto;
+    display:flex;
+}
+
+h5 {color: #a45e8a;}
