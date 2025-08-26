@@ -9,7 +9,8 @@ padding: 0}
 
 .corPreto a:hover{ color: rgb(126, 224, 193);}
 
-.corPreto a:active{ color: rgb(126, 224, 193);}
+
+.corPreto a:focus {color: rgb(126, 224, 193) }
 
 i {color: #e65a4f}
 p {color: #e5720a}
@@ -19,7 +20,6 @@ body{overflow-x: hidden;}
 
 #pagina1{width: 100vw; 
     height: auto;
-    display:flex;
-}
+    display:flex;  }
 
-h5 {color: #a45e8a;}
+h5 {color: #a45e8a} 
