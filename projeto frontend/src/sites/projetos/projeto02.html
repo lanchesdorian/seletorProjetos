@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 2 - Display</title>
+    <link rel="stylesheet" href="../../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .amarelo a:hover {
+            color: rgb(218, 130, 29);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary amarelo"
+            style="background-image: linear-gradient(to right top, #e9d23d, #ecbd29, #eda71a, #ed9011, #eb7912);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Giraffas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cardapio.html">Nosso cardápio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./local.html">Localizações</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        <section>
+            <div style="background-color: rgb(223, 178, 102); padding: 10rem 1rem;">
+                <div class="container">
+                    <div class="row g-5 justify-content-center align-items-center">
+                        <div class="col-12 col-lg-6 d-flex justify-content-center">
+                            <div class="card" style="width: 100%; max-width: 80rem;">
+                                <img src="https://franquias360.com.br/wp-content/uploads/2024/05/franquia-giraffas-logo.png"
+                                    class="img-fluid" alt="Logo Giraffas">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center text-center">
+                            <h1 style="color: rgb(223, 114, 41);">"A vida é um prato cheio"</h1>
+                            <br>
+                            <p style="color: #ad4f1c;"><b>SOBRE NÓS:</b></p>
+                            <p style="color: #ad4f1c;">
+                                Nosso nome foi inspirado na chegada de duas girafas ao zoológico de Brasília, em abril de 1981.
+                                Temos um cardápio diversificado, que inclui opções de pratos, sanduíches e sobremesas.
+                                Somos reconhecidos pelo seu compromisso com sabor, qualidade e preços acessíveis.
+                                Atuamos em mais de 130 municípios brasileiros e contamos com cerca de 400 unidades em todo o país.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer mt-auto py-3"
+        style="background-image: linear-gradient(to right top, #e96520, #e67f2c, #e4963f, #e1aa56, #e0bd70);">
+        <div class="container text-center">
+            <span class="text-dark">2025 TODOS OS DIREITOS RESERVADOS</span>
+        </div>
+    </footer>
+
+    <script src="../../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
