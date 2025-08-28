@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Autocar </title>
+    <link rel="stylesheet" href="../../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .amarelo a:hover {
+            color: rgb(94, 86, 86);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary amarelo"
+            style="background-image: linear-gradient(to right, #e33535, #b7282b, #8c1b21, #631116, #3d0707);">
+            <div class="container-fluid">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.8dK9_tp1ASoVQRvYMtz8QgHaHa?r=0&pid=ImgDet&w=207&h=207&c=7&o=7&rm=3"
+                    style="height: 12vh;">
+                <a class="navbar-brand" href="#"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" ; style="color: black;">
+                                Opções
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: #d83b35;">
+                                <li><a class="dropdown-item" href="#carros">Nossos carros</a></li>
+                                <li><a class="dropdown-item" href="#quemsomos">Quem somos</a></li>
+                                <li><a class="dropdown-item" href="#contatos">Contatos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        <section>
+            <div style="background-color: rgb(34, 31, 31); padding: 5rem 1rem;">
+                <div class="d-flex justify-content-center mb-5">
+                    <img src="./autocar (2).png" class="img-fluid" style="max-width: 90vw; height: auto;">
+                </div>
+                <div id="carros" style="height: 100vh; background-color:rgb(34, 31, 31)"
+                    class="justify-content-center align-items-center text-center">
+                    <h1 style="color: aliceblue;"> Catálogo </h1>
+                    <br>
+                    <div class="container-fluid mt-5 d-flex justify-content-center allign-items-center">
+                        <div class="row g-5">
+                            <div class="container-fluid mt-5 d-flex justify-content-center allign-items-center">
+                                <div class="row g-5">
+
+                                    <div class="col  justify-content-center allign-items-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="https://cdn.motor1.com/images/mgl/2NL2qE/s1/next-gen-audi-q3-rendering.webp"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body" style="background-color: #631116;">
+                                                <h5 class="card-title" style="color: #ffffff;"> AUDI Q3 </h5>
+                                                <p class="card-text" style="color: #ffffff;"> Destaca-se pelo design que
+                                                    combina a robustez de um SUV com o apelo desportivo de um coupé no
+                                                    caso
+                                                    do Sportback, oferecendo motores
+                                                    potentes como o 2.0 TFSI. Disponível com tração integral (quattro)
+                                                    em algumas versões, o modelo proporciona uma condução ágil e
+                                                    estável,
+                                                    complementada pela tecnologia do Audi drive select. </p>
+                                                <p style="color: #ffffff; background-color: black;">Seu custo varia a
+                                                    partir
+                                                    de R$ 358.990,00 para a versão SUV e R$ 378.990,00 para o modelo
+                                                    Sportback. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col justify-content-center allign-items-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src=https://cdn.motor1.com/images/mgl/Qe3ny9/s1/mercedes-benz-gla-200-2025.jpg
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body" style="background-color:  #631116;">
+                                                <h5 class="card-title" style="color: #ffffff;"> Mercedes-Benz GLA 200
+                                                </h5>
+                                                <p class="card-text" style="color: #ffffff;"> SUV compacto da marca
+                                                    alemã
+                                                    Mercedes-Benz, conhecido por combinar elegância, conforto e um
+                                                    carácter desportivo com as características de um utilitário,
+                                                    oferecendo
+                                                    um bom desempenho em diferentes tipos de condução,</p>
+                                                <p style="color: #ffffff; background-color: black;"> Temos versões a
+                                                    partir
+                                                    de R$ 369.900,00 ou R$ 96.581 (para modelos mais antigos, como 2015)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col  justify-content-center allign-items-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src=https://hips.hearstapps.com/hmg-prod/images/2024-honda-accord-sport-hybrid-101-673b7a93c4168.jpg?crop=0.637xw:0.535xh;0.298xw,0.363xh&resize=1200:*
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body" style="background-color:#631116;">
+                                                <h5 class="card-title" style="color: #ffffff;"> Honda Accord </h5>
+                                                <p class="card-text" style="color: #ffffff;"> Design moderno e elegante,
+                                                    interior espaçoso e confortável, e pelo pacote de segurança Honda
+                                                    SENSING. </p>
+                                                <p style="color: #ffffff; background-color: black;"> Temos versões a
+                                                    partir de tem preço inicial de R$ 324.900,00, com motorização
+                                                    híbrida e acabamento premium. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col  justify-content-center allign-items-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <img
+                                                src="https://vehicle-images.dealerinspire.com/84cb-110009221/YV4L12UF5S2483624/5af98ef6cf0cff68587206b313fa6bd6.jpg">
+                                            <div class="card-body" style="background-color: #631116;">
+                                                <h5 class="card-title" style="color:#ffffff;"> Volvo xc40</h5>
+                                                <p class="card-text" style="color: #ffffff;"> SUV crossover compacto e
+                                                    elétrico da Volvo, conhecido pelo seu design elegante, praticidade
+                                                    urbana, assentos confortáveis para
+                                                    cinco pessoas e boa capacidade de bagageira.
+                                                    O modelo elétrico utiliza motores elétricos para um desempenho ágil,
+                                                    com opções de motorização single (tração traseira) e twin (ambas as
+                                                    rodas). </p>
+                                                <p style="color: #ffffff; background-color: black;"> Temos versões do
+                                                    Plus, de R$ 334.950, e Ultra, de R$ 384.950.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col  justify-content-center allign-items-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/2016_Land_Rover_Discovery_Sport_SE_Tech_T_2.0_Front.jpg/1200px-2016_Land_Rover_Discovery_Sport_SE_Tech_T_2.0_Front.jpg
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body" style="background-color: #631116;">
+                                                <h5 class="card-title" style="color: #ffffff;"> Land Rover Discovery
+                                                    Sport </h5>
+                                                <p class="card-text" style="color: #ffffff;"> SUV compacto e versátil da
+                                                    Land Rover, conhecido pela sua capacidade para aventura e espaço
+                                                    interior, oferecendo diferentes motorizações,
+                                                    como a D200 Turbo Diesel e a P250 Turbo Flex, e um sistema de
+                                                    infoentretenimento Pivi Pro com ecrã de 11,4 polegadas.</p>
+                                                <p style="background-color: black; color: #ffffff;"> Temos versões de R$
+                                                    297.220,00 até R$ 407.013,00. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        </section>
+
+        <section>
+            <div id="quemsomos" style="min-height: 100vh; background-color:rgb(34, 31, 31);"
+            class="d-flex flex-column justify-content-center align-items-center text-center">
+            
+            <h1 style="color: aliceblue; margin-bottom: 40px;"> Quem Somos? </h1>
+            
+            <div class="row w-100 d-flex justify-content-center align-items-center">
+                
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <img src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-3894-61f7-bd98-febfbe6f6a5a/raw?se=2025-08-28T18%3A21%3A56Z&sp=r&sv=2024-08-04&sr=b&scid=6275f2f1-4a64-540d-9ff9-d5291825951a&skoid=60f2aa1f-3685-43ee-be37-d8c8d08d5a64&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-27T21%3A17%3A29Z&ske=2025-08-28T21%3A17%3A29Z&sks=b&skv=2024-08-04&sig=ruYf2jjc/d9n4IF%2B/0L9tpqkZN%2BOYiat36P9%2BhOKAT0%3D" 
+                         alt="Fachada Autocar" style="max-width:80%; border-radius:12px;">
+                    <p style="color: aliceblue; font-size: 18px; max-width: 500px; margin-top: 20px;">
+                        A <b>Autocar</b> nasceu do sonho de dois amigos, <b>Grilo</b> e <b>Daniel</b>, que uniram paixão por carros e 
+                        dedicação às pessoas. De uma pequena loja com três veículos, crescemos para nos tornar uma 
+                        das concessionárias mais respeitadas do país — sempre com honestidade, qualidade e confiança.
+                    </p>
+                </div>
+        
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <h2 style="color: aliceblue;"> Nossa História </h2>
+                    <p style="color: aliceblue; font-size: 18px; max-width: 500px; margin-top: 20px;">
+                        No final da década de 90, em uma pequena cidade do interior, dois amigos de infância — Grilo, um visionário cheio de ideias, e Daniel, um apaixonado por carros e mecânica — decidiram transformar seus sonhos em realidade.
+
+                        Grilo sempre acreditava que os carros eram mais do que máquinas; para ele, representavam liberdade, oportunidades e novos caminhos. Já Daniel tinha um talento natural para entender motores, design e tendências do mercado automotivo. Eles se completavam: um sonhava alto, o outro fazia o sonho funcionar.
+                        
+                        Em 2001, reunindo economias, abriram uma pequena loja chamada Autocar, com apenas três veículos usados no pátio. O nome nasceu de uma conversa simples: queriam algo direto, que transmitisse confiança e modernidade.
+                        
+                        Aos poucos, o negócio cresceu. Grilo se destacava no relacionamento com os clientes, criando laços de confiança e transformando compradores em amigos. Daniel cuidava do estoque, revisando cada carro com o olhar criterioso de quem ama a mecânica. Logo, a fama da Autocar se espalhou: era a concessionária onde se comprava carro sem medo.
+                        
+                        Com o tempo, a Autocar se expandiu. Passou a vender também veículos novos, trouxe marcas internacionais e investiu em tecnologia, criando uma plataforma digital que permitia ao cliente escolher o carro e receber em casa. Mas, mesmo com o crescimento, os dois mantiveram o espírito de origem: honestidade, paixão por carros e cuidado com as pessoas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="contatos" style="min-height: 100vh; background-color:rgb(34, 31, 31);"
+            class=" justify-content-center align-items-center text-center">
+            <h1 style="color: aliceblue; margin-bottom: 40px;"> Contatos </h1>
+            <p style = "color: #ffffff;">CONTATOS</p>
+            <p style = "color: #ffffff;">Whatsapp: 19 980765-7654 / E-mail: AUTOCAR2025@gmail.com </p>
+            <p style="color: #ffffff; font-size: 30px;" > Localização </p>
+        <div class="container">
+                <div class="row g-5 justify-content-center align-items-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.70725514145!2d-48.525085823702724!3d-25.5148080362545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94db9b0073e992bd%3A0x756a63979cc1a446!2sOnde%20Judas%20perdeu%20as%20botas!5e0!3m2!1spt-BR!2sbr!4v1756403935666!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <h1 style="color: #ffffff;">Entre em contato conosco </h1>
+            <input class="form-control form-control-lg" type="text" placeholder="Digite seu E-mail:" aria-label=".form-control-lg example">
+            
+            <input class="form-control" type="text" placeholder="Digit seu telefone:" aria-label="default input example">
+            
+            <input class="form-control form-control-sm" type="text" placeholder=" O por que do contato?" aria-label=".form-control-sm example">
+            
+        
+    </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer mt-auto py-3"
+        style="background-image: linear-gradient(to right, #e33535, #b7282b, #8c1b21, #631116, #3d0707);">
+        <div class="container text-center">
+            <span class="text-dark">2025 TODOS OS DIREITOS RESERVADOS</span>
+        </div>
+    </footer>
+
+    <script src="../../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
